@@ -1,11 +1,10 @@
-
 // Mock Application Database
 const appsDatabase = {
     "picsart-pro": {
         name: "PicsArt Pro",
         type: "premium",
         description: "PicsArt Pro est la solution complète pour l'édition photo et vidéo professionnelle. Accédez à des milliers de filtres exclusifs, outils de retouche magiques alimentés par l'IA, et une bibliothèque Premium de 10 millions d'autocollants et d'arrière-plans. Créez des contenus visuels époustouflants sans limitation ni filigrane. Parfait pour les photographes, graphistes et créateurs de contenu.",
-        img: "https://upload.wikimedia.org/wikipedia/commons/2/25/PicsArt_Logo.png",
+        img: "https://cdn.jsdelivr.net/gh/Walkxcode/Dashboard-Icons@main/png/picsart.png",
         category: "Édition photo & vidéo",
         version: "24.1.5",
         size: "156 Mo",
@@ -16,7 +15,7 @@ const appsDatabase = {
         name: "CapCut Pro",
         type: "premium",
         description: "CapCut Pro est le meilleur outil d'édition vidéo pour créer du contenu viral. Bénéficiez de transitions fluides, d'effets de texte automatisés, de suivi de mouvement, de chromakey professionnel et d'une bibliothèque massive de musiques royalty-free. Optimisez facilement vos vidéos pour TikTok, YouTube et Instagram. Parfait pour les créateurs de contenu.",
-        img: "https://upload.wikimedia.org/wikipedia/commons/e/e0/CapCut_logo.png",
+        img: "https://images.sftcdn.net/images/t_app-icon-m/p/9482d8d8-94cf-4ca6-a579-be2fa5c1b6bf/2733979402/capcut-logo.png",
         category: "Édition vidéo & Montage",
         version: "11.3.2",
         size: "245 Mo",
@@ -27,7 +26,7 @@ const appsDatabase = {
         name: "VPN Master",
         type: "gratuit",
         description: "Naviguez en toute sécurité et anonymement avec VPN Master. Chiffrez votre connexion Internet, masquez votre adresse IP réelle et accédez aux contenus bloqués géographiquement. Connexion ultra-rapide avec serveurs dans 50+ pays, bande passante illimitée et zéro logs. Protégez votre confidentialité sur WiFi public, et contournez les restrictions de réseau.",
-        img: "https://upload.wikimedia.org/wikipedia/commons/b/bc/V_Logo_Poly.png",
+        img: "https://cdn.jsdelivr.net/gh/Walkxcode/Dashboard-Icons@main/png/vpn-gate.png",
         category: "Sécurité & Confidentialité",
         version: "5.8.4",
         size: "38 Mo",
@@ -38,7 +37,7 @@ const appsDatabase = {
         name: "Spotify Premium",
         type: "premium",
         description: "Spotify Premium vous offre un accès illimité à 100+ millions de chansons et de podcasts sans interruption publicitaire. Écoutez hors ligne, profitez d'un son haute fidélité, créez et partagez des playlists personnalisées. Accès aux pochettes d'album haute résolution et aux podcasts exclusifs. La meilleure expérience musicale du marché.",
-        img: "https://upload.wikimedia.org/wikipedia/commons/1/19/Spotify_logo-without_text.svg",
+        img: "https://cdn.jsdelivr.net/gh/Walkxcode/Dashboard-Icons@main/png/spotify.png",
         category: "Musique & Podcasts",
         version: "8.10.15",
         size: "92 Mo",
@@ -49,7 +48,7 @@ const appsDatabase = {
         name: "Subway Surfers",
         type: "gratuit",
         description: "Jeu arcade Subway Surfers modifié en APK 3.64.10 avec pièces illimitées, clés et menu amélioré.",
-        img: "https://upload.wikimedia.org/wikipedia/en/9/95/Subway_Surfers_logo.png",
+        img: "https://play-lh.googleusercontent.com/4whGGo7S7Xid9asZpGvXw9w8wXit3wXg_vcaLwT9XQ5G7Adfp3cm27N8B66C5S_O4Q",
         category: "Jeu / Arcade",
         version: "3.64.10",
         size: "81 Mo",
@@ -60,7 +59,7 @@ const appsDatabase = {
         name: "Telegram Web Mod Premium",
         type: "gratuit",
         description: "Telegram Web mod premium avec pubs supprimées, stories anonymes, vitesse boostée et fonctions premium débloquées.",
-        img: "https://upload.wikimedia.org/wikipedia/commons/8/82/Telegram_logo.svg",
+        img: "https://cdn.jsdelivr.net/gh/Walkxcode/Dashboard-Icons@main/png/telegram.png",
         category: "Communication & Productivité",
         version: "12.8.1",
         size: "55,86 Mo",
@@ -71,7 +70,7 @@ const appsDatabase = {
         name: "Cinema Premium",
         type: "premium",
         description: "Mod Cinema Premium avec abonnement débloqué, pubs supprimées, facturation désactivée et interface propre.",
-        img: "https://upload.wikimedia.org/wikipedia/commons/e/e1/Video-x-generic.svg",
+        img: "https://cdn-icons-png.flaticon.com/512/3658/3658937.png",
         category: "Films & Divertissement",
         version: "Dernière version",
         size: "Variable selon APK",
@@ -82,7 +81,7 @@ const appsDatabase = {
         name: "CricZ TV Premium",
         type: "premium",
         description: "CricZ TV Premium avec chaînes débloquées, lecture sans pub, interface rapide et compatibilité Android TV.",
-        img: "https://upload.wikimedia.org/wikipedia/commons/c/c4/Font_Awesome_5_solid_tv.svg",
+        img: "https://cdn-icons-png.flaticon.com/512/716/716429.png",
         category: "TV & Streaming",
         version: "Dernière version",
         size: "Variable selon APK",
@@ -90,6 +89,7 @@ const appsDatabase = {
         link: "https://wa.me//+237673355468?text=Je_veux_acheter_CricZ_TV_Premium"
     }
 };
+
 
 
 document.addEventListener('DOMContentLoaded', function() {
