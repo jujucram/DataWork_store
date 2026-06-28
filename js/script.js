@@ -1,10 +1,11 @@
+
 // Mock Application Database
 const appsDatabase = {
     "picsart-pro": {
         name: "PicsArt Pro",
         type: "premium",
         description: "PicsArt Pro est la solution complète pour l'édition photo et vidéo professionnelle. Accédez à des milliers de filtres exclusifs, outils de retouche magiques alimentés par l'IA, et une bibliothèque Premium de 10 millions d'autocollants et d'arrière-plans. Créez des contenus visuels époustouflants sans limitation ni filigrane. Parfait pour les photographes, graphistes et créateurs de contenu.",
-        img: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 150 150'%3E%3Crect fill='%23FF0066' width='150' height='150'/%3E%3Ctext x='50%25' y='50%25' font-size='60' font-weight='bold' fill='white' text-anchor='middle' dy='.3em'%3EPA%3C/text%3E%3C/svg%3E",
+        img: "https://upload.wikimedia.org/wikipedia/commons/2/25/PicsArt_Logo.png",
         category: "Édition photo & vidéo",
         version: "24.1.5",
         size: "156 Mo",
@@ -15,7 +16,7 @@ const appsDatabase = {
         name: "CapCut Pro",
         type: "premium",
         description: "CapCut Pro est le meilleur outil d'édition vidéo pour créer du contenu viral. Bénéficiez de transitions fluides, d'effets de texte automatisés, de suivi de mouvement, de chromakey professionnel et d'une bibliothèque massive de musiques royalty-free. Optimisez facilement vos vidéos pour TikTok, YouTube et Instagram. Parfait pour les créateurs de contenu.",
-        img: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 150 150'%3E%3Crect fill='%23000000' width='150' height='150'/%3E%3Ctext x='50%25' y='50%25' font-size='60' font-weight='bold' fill='%23FFD700' text-anchor='middle' dy='.3em'%3ECC%3C/text%3E%3C/svg%3E",
+        img: "https://upload.wikimedia.org/wikipedia/commons/e/e0/CapCut_logo.png",
         category: "Édition vidéo & Montage",
         version: "11.3.2",
         size: "245 Mo",
@@ -26,7 +27,7 @@ const appsDatabase = {
         name: "VPN Master",
         type: "gratuit",
         description: "Naviguez en toute sécurité et anonymement avec VPN Master. Chiffrez votre connexion Internet, masquez votre adresse IP réelle et accédez aux contenus bloqués géographiquement. Connexion ultra-rapide avec serveurs dans 50+ pays, bande passante illimitée et zéro logs. Protégez votre confidentialité sur WiFi public, et contournez les restrictions de réseau.",
-        img: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 150 150'%3E%3Crect fill='%23627EEA' width='150' height='150'/%3E%3Ctext x='50%25' y='50%25' font-size='60' font-weight='bold' fill='white' text-anchor='middle' dy='.3em'%3EVPN%3C/text%3E%3C/svg%3E",
+        img: "https://upload.wikimedia.org/wikipedia/commons/b/bc/V_Logo_Poly.png",
         category: "Sécurité & Confidentialité",
         version: "5.8.4",
         size: "38 Mo",
@@ -37,7 +38,7 @@ const appsDatabase = {
         name: "Spotify Premium",
         type: "premium",
         description: "Spotify Premium vous offre un accès illimité à 100+ millions de chansons et de podcasts sans interruption publicitaire. Écoutez hors ligne, profitez d'un son haute fidélité, créez et partagez des playlists personnalisées. Accès aux pochettes d'album haute résolution et aux podcasts exclusifs. La meilleure expérience musicale du marché.",
-        img: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 150 150'%3E%3Crect fill='%231DB954' width='150' height='150'/%3E%3Ctext x='50%25' y='50%25' font-size='60' font-weight='bold' fill='white' text-anchor='middle' dy='.3em'%3ESP%3C/text%3E%3C/svg%3E",
+        img: "https://upload.wikimedia.org/wikipedia/commons/1/19/Spotify_logo-without_text.svg",
         category: "Musique & Podcasts",
         version: "8.10.15",
         size: "92 Mo",
@@ -70,7 +71,7 @@ const appsDatabase = {
         name: "Cinema Premium",
         type: "premium",
         description: "Mod Cinema Premium avec abonnement débloqué, pubs supprimées, facturation désactivée et interface propre.",
-        img: "https://upload.wikimedia.org/wikipedia/commons/8/84/Font_Awesome_5_solid_film.svg",
+        img: "https://upload.wikimedia.org/wikipedia/commons/e/e1/Video-x-generic.svg",
         category: "Films & Divertissement",
         version: "Dernière version",
         size: "Variable selon APK",
@@ -81,7 +82,7 @@ const appsDatabase = {
         name: "CricZ TV Premium",
         type: "premium",
         description: "CricZ TV Premium avec chaînes débloquées, lecture sans pub, interface rapide et compatibilité Android TV.",
-        img: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/TV_Font_Awesome.svg/1024px-TV_Font_Awesome.svg.png",
+        img: "https://upload.wikimedia.org/wikipedia/commons/c/c4/Font_Awesome_5_solid_tv.svg",
         category: "TV & Streaming",
         version: "Dernière version",
         size: "Variable selon APK",
@@ -89,6 +90,7 @@ const appsDatabase = {
         link: "https://wa.me//+237673355468?text=Je_veux_acheter_CricZ_TV_Premium"
     }
 };
+
 
 document.addEventListener('DOMContentLoaded', function() {
     
