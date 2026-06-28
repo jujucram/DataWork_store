@@ -513,9 +513,12 @@ nav.active {
 .info-row {
     display: flex;
     justify-content: space-between;
+    align-items: flex-start; /* Aligne le texte par le haut si ça passe sur 2 lignes */
+    gap: 15px;               /* Crée un espace de sécurité de 15px pour empêcher le collage */
     padding: 12px 0;
     border-bottom: 1px solid #1f2833;
 }
+
 
 .info-row:last-child {
     border-bottom: none;
