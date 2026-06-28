@@ -9,7 +9,7 @@ const appsDatabase = {
         version: "24.1.5",
         size: "156 Mo",
         lang: "Multilingue (45+ langues)",
-        link: "https://wa.me//+237673355468?text=Je_veux_acheter_PicsArt_Pro"
+        link: "https://wa.me//+237673355468?text=Bonjour Brandon, Je veux acheter PicsArt Pro"
     },
     "capcut-pro": {
         name: "CapCut Pro",
@@ -20,7 +20,7 @@ const appsDatabase = {
         version: "11.3.2",
         size: "245 Mo",
         lang: "Multilingue (30+ langues)",
-        link: "https://wa.me//+237673355468?text=Je_veux_acheter_CapCut_Pro"
+        link: "https://wa.me//+237673355468?text=Bonjour Brandon, Je veux acheter CapCut Pro"
     },
     "vpn-master": {
         name: "VPN Master",
@@ -42,7 +42,7 @@ const appsDatabase = {
         version: "8.10.15",
         size: "92 Mo",
         lang: "Multilingue (60+ langues)",
-        link: "https://wa.me//+237673355468?text=Je_veux_acheter_Spotify_Premium"
+        link: "https://wa.me//+237673355468?text=Bonjour Brandon, Je veux acheter Spotify Premium"
     },
     "subway-surfers": {
         name: "Subway Surfers",
@@ -75,7 +75,7 @@ const appsDatabase = {
         version: "Dernière version",
         size: "Variable selon APK",
         lang: "Multilingue",
-        link: "https://wa.me//+237673355468?text=Je_veux_acheter_Cinema_Premium"
+        link: "https://wa.me//+237673355468?text=Bonjour Brandon, Je veux acheter Cinema Premium"
     },
     "cricz-tv-premium": {
         name: "CricZ TV Premium",
@@ -86,7 +86,7 @@ const appsDatabase = {
         version: "Dernière version",
         size: "Variable selon APK",
         lang: "Multilingue",
-        link: "https://wa.me//+237673355468?text=Je_veux_acheter_CricZ_TV_Premium"
+        link: "https://wa.me//+237673355468?text=Bonjour Brandon, Je veux acheter CricZ TV Premium"
     }
 };
 
