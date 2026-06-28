@@ -1,7 +1,3 @@
-/* ==========================================
-   RESPONSIVE DESIGN (CORRIGÉ)
-   ========================================== */
-
 @media (max-width: 992px) {
     .featured-grid {
         /* Correction : 2 colonnes égales (1fr) au lieu de 100% pour éviter le bug d'affichage */
