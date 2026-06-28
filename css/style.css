@@ -205,9 +205,10 @@ nav.active {
 
 .featured-grid {
     display: grid;
-    grid-template-columns: repeat(4, 100%);
+    grid-template-columns: repeat(4, 1fr); /* Divise l'espace en 4 parts égales */
     gap: 20px;
 }
+
 
 .featured-card {
     background-color: #151a22;
@@ -395,10 +396,11 @@ nav.active {
 /* App Detail Page */
 .app-detail-container-grid {
     display: grid;
-    grid-template-columns: 300px 100%;
+    grid-template-columns: 300px 1fr; /* 300px pour la sidebar, le reste pour le texte */
     gap: 40px;
     margin-top: 20px;
 }
+
 
 .app-sidebar {
     text-align: center;
