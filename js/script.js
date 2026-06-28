@@ -26,7 +26,7 @@ const appsDatabase = {
         name: "VPN Master",
         type: "gratuit",
         description: "Naviguez en toute sécurité et anonymement avec VPN Master. Chiffrez votre connexion Internet, masquez votre adresse IP réelle et accédez aux contenus bloqués géographiquement. Connexion ultra-rapide avec serveurs dans 50+ pays, bande passante illimitée et zéro logs. Protégez votre confidentialité sur WiFi public, et contournez les restrictions de réseau.",
-        img: "https://cdn.jsdelivr.net/gh/Walkxcode/Dashboard-Icons@main/png/vpn-gate.png",
+        img: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 120 120'%3E%3Crect fill='%23627EEA' width='120' height='120'/%3E%3Ctext x='50%25' y='50%25' font-size='60' fill='white' text-anchor='middle' dy='.3em'%3EVPN%3C/text%3E%3C/svg%3E" alt="VPN Master",
         category: "Sécurité & Confidentialité",
         version: "5.8.4",
         size: "38 Mo",
