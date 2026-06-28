@@ -1,6 +1,11 @@
+/* ==========================================
+   RESPONSIVE DESIGN (CORRIGÉ)
+   ========================================== */
+
 @media (max-width: 992px) {
     .featured-grid {
-        grid-template-columns: repeat(2, 100%);
+        /* Correction : 2 colonnes égales (1fr) au lieu de 100% pour éviter le bug d'affichage */
+        grid-template-columns: repeat(2, 1fr); 
     }
     .values-grid {
         grid-template-columns: 100%;
@@ -10,13 +15,28 @@
 
 @media (max-width: 768px) {
     body {
-        padding-top: 70px;
+        /* Augmenté à 120px pour laisser de la place au header qui s'agrandit sur mobile */
+        padding-top: 120px; 
     }
     .header-container {
-        flex-direction: column;
-        gap: 15px;
-        align-items: flex-start;
+        display: flex;
+        flex-direction: row; /* On force l'alignement en ligne pour éviter l'empilement vertical */
+        justify-content: space-between; /* Logo à gauche, bouton et burger à droite */
+        align-items: center;
+        flex-wrap: wrap; /* Permet aux éléments de se positionner proprement sur très petit écran */
+        gap: 10px;
     }
+    
+    /* On cible le bouton vert dans le header pour réduire sa taille sur mobile */
+    .header-container a[href*="chain"], 
+    .header-container .btn, 
+    .header-container button { 
+        font-size: 13px;
+        padding: 6px 12px;
+        width: auto;
+        white-space: nowrap; /* Évite que le texte du bouton s'écrive sur deux lignes */
+    }
+
     .burger {
         display: block;
     }
@@ -75,5 +95,10 @@
 @media (max-width: 480px) {
     .featured-grid {
         grid-template-columns: 100%;
+    }
+    
+    /* Sécurité additionnelle pour les écrans minuscules */
+    body {
+        padding-top: 140px; 
     }
 }
