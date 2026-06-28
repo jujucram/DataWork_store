@@ -123,6 +123,7 @@ nav.active {
 
 .search-box {
     display: flex;
+    align-items: center; /* Aligne verticalement l'input et le bouton au centre */
     max-width: 550px;
     margin: 0 auto 50px auto;
     background-color: #151a22;
@@ -139,19 +140,44 @@ nav.active {
     padding: 12px 20px;
     color: #fff;
     font-size: 15px;
+    width: 100%; /* S'assure que l'input occupe bien l'espace fluide */
 }
 
 .search-box button {
     background-color: #00ff66;
     border: none;
+    
+    /* On force les dimensions pour garder un cercle parfait */
     width: 45px;
     height: 45px;
+    min-width: 45px;  /* IMPORTANT : Empêche le bouton de s'écraser sur les côtés */
+    min-height: 45px; /* IMPORTANT : Empêche le bouton de se déformer en hauteur */
     border-radius: 50%;
+    
     color: #000;
     cursor: pointer;
     font-size: 16px;
     transition: 0.3s;
+
+    /* Centre parfaitement la loupe (icône ou texte) au milieu du rond */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0; 
 }
+
+/* Sécurité : Si ta loupe est une icône FontAwesome (<i>), un SVG ou une image, 
+   on s'assure qu'elle ne déborde pas et garde ses proportions */
+.search-box button i,
+.search-box button svg,
+.search-box button img {
+    font-size: 16px;
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    object-fit: contain;
+}
+
 
 .categories {
     display: flex;
