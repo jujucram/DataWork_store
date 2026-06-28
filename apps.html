@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DATA WORK_store | Toutes les Applications</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo">DATA <span>WORK Store</span></div>
+            <button class="burger" aria-label="Menu"><i class="fa-solid fa-bars"></i></button>
+            <nav>
+                <a href="index.html">Accueil</a>
+                <a href="apps.html" class="active">Applications</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+            <a href="https://whatsapp.com/channel/0029VbBLz4p0wajt8gAwhN3r" target="_blank" class="btn-zapp">Rejoindre la Chaine</a>
+        </div>
+    </header>
+
+    <section class="page-title">
+        <div class="container">
+            <h2>Toutes les Applications</h2>
+            <p>Découvrez toutes nos applications disponibles</p>
+            <div class="filter-tabs">
+                <button class="tab-btn active" data-filter="all">Toutes</button>
+                <button class="tab-btn" data-filter="gratuit">Gratuites</button>
+                <button class="tab-btn" data-filter="premium">Premium</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="apps-list-section">
+        <div class="container">
+            <div class="apps-list-wrapper" id="appsContainer">
+                <!-- App Item 1 -->
+                <div class="app-list-item" data-type="premium" data-name="picsart pro">
+                    <div class="app-item-info">
+                        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 120 120'%3E%3Crect fill='%23FF0066' width='120' height='120'/%3E%3Ctext x='50%25' y='50%25' font-size='50' font-weight='bold' fill='white' text-anchor='middle' dy='.3em'%3EPA%3C/text%3E%3C/svg%3E" alt="PicsArt">
+                        <div>
+                            <h3>PicsArt Pro <span class="badge premium">Premium</span></h3>
+                            <p>Éditeur photo et vidéo professionnel avec outils d'IA, filtres avancés et effets créatifs illimités.</p>
+                        </div>
+                    </div>
+                    <a href="app.html?id=picsart-pro" class="btn-item-link">Voir l'app</a>
+                </div>
+
+                <!-- App Item 2 -->
+                <div class="app-list-item" data-type="premium" data-name="capcut pro">
+                    <div class="app-item-info">
+                        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 120 120'%3E%3Crect fill='%23000000' width='120' height='120'/%3E%3Ctext x='50%25' y='50%25' font-size='50' font-weight='bold' fill='%23FFD700' text-anchor='middle' dy='.3em'%3ECC%3C/text%3E%3C/svg%3E" alt="CapCut">
+                        <div>
+                            <h3>CapCut Pro <span class="badge premium">Premium</span></h3>
+                            <p>Créateur de contenu professionnel pour réseaux sociaux avec effets, transitions et musiques premium.</p>
+                        </div>
+                    </div>
+                    <a href="app.html?id=capcut-pro" class="btn-item-link">Voir l'app</a>
+                </div>
+
+                <!-- App Item 3 -->
+                <div class="app-list-item" data-type="gratuit" data-name="vpn master">
+                    <div class="app-item-info">
+                        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 120 120'%3E%3Crect fill='%23627EEA' width='120' height='120'/%3E%3Ctext x='50%25' y='50%25' font-size='60' fill='white' text-anchor='middle' dy='.3em'%3EVPN%3C/text%3E%3C/svg%3E" alt="VPN Master">
+                        <div>
+                            <h3>VPN Master <span class="badge free">Gratuit</span></h3>
+                            <p>Connexion VPN sécurisée et rapide pour protéger votre vie privée en ligne sur tous les réseaux.</p>
+                        </div>
+                    </div>
+                    <a href="app.html?id=vpn-master" class="btn-item-link">Voir l'app</a>
+                </div>
+
+                <!-- App Item 4 -->
+                <div class="app-list-item" data-type="premium" data-name="spotify premium">
+                    <div class="app-item-info">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/1/19/Spotify_logo_without_text.svg" alt="Spotify">
+                        <div>
+                            <h3>Spotify Premium <span class="badge premium">Premium</span></h3>
+                            <p>Accès illimité à 70+ millions de chansons, podcasts et playlists personnalisées sans interruptions.</p>
+                        </div>
+                    </div>
+                    <a href="app.html?id=spotify-premium" class="btn-item-link">Voir l'app</a>
+                </div>
+                <!-- App Item 5 -->
+                <div class="app-list-item" data-type="gratuit" data-name="subway surfers">
+                    <div class="app-item-info">
+                        <img src="https://upload.wikimedia.org/wikipedia/en/9/95/Subway_Surfers_logo.png" alt="Subway Surfers">
+                        <div>
+                            <h3>Subway Surfers <span class="badge free">Gratuit</span></h3>
+                            <p>Version 3.64.10 APK avec pièces illimitées, clés et menu modifié pour un gameplay arcade fluide.</p>
+                        </div>
+                    </div>
+                    <a href="app.html?id=subway-surfers" class="btn-item-link">Voir l'app</a>
+                </div>
+
+                <!-- App Item 6 -->
+                <div class="app-list-item" data-type="gratuit" data-name="telegram web mod premium">
+                    <div class="app-item-info">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/8/82/Telegram_logo.svg" alt="Telegram Web Mod Premium">
+                        <div>
+                            <h3>Telegram Web Mod Premium <span class="badge free">Gratuit</span></h3>
+                            <p>Telegram Web mod premium avec pubs supprimées, stories anonymes, vitesse boostée et fonctions premium débloquées.</p>
+                        </div>
+                    </div>
+                    <a href="app.html?id=telegram-web-premium" class="btn-item-link">Voir l'app</a>
+                </div>
+
+                <!-- App Item 7 -->
+                <div class="app-list-item" data-type="premium" data-name="cinema premium">
+                    <div class="app-item-info">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/8/84/Font_Awesome_5_solid_film.svg" alt="Cinema Premium">
+                        <div>
+                            <h3>Cinema Premium <span class="badge premium">Premium</span></h3>
+                            <p>Mod premium avec abonnement débloqué, pubs supprimées et facturation désactivée.</p>
+                        </div>
+                    </div>
+                    <a href="app.html?id=cinema-premium" class="btn-item-link">Voir l'app</a>
+                </div>
+
+                <!-- App Item 8 -->
+                <div class="app-list-item" data-type="premium" data-name="cricz tv premium">
+                    <div class="app-item-info">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/TV_Font_Awesome.svg/1024px-TV_Font_Awesome.svg.png" alt="CricZ TV Premium">
+                        <div>
+                            <h3>CricZ TV Premium <span class="badge premium">Premium</span></h3>
+                            <p>Lecteur vidéo rapide sans pub, chaînes premium débloquées et interface optimisée.</p>
+                        </div>
+                    </div>
+                    <a href="app.html?id=cricz-tv-premium" class="btn-item-link">Voir l'app</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Data Work Agency. Tous droits réservés.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

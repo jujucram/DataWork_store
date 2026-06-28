@@ -1,0 +1,79 @@
+@media (max-width: 992px) {
+    .featured-grid {
+        grid-template-columns: repeat(2, 100%);
+    }
+    .values-grid {
+        grid-template-columns: 100%;
+        gap: 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    body {
+        padding-top: 70px;
+    }
+    .header-container {
+        flex-direction: column;
+        gap: 15px;
+        align-items: flex-start;
+    }
+    .burger {
+        display: block;
+    }
+    nav {
+        display: none;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+        background-color: rgba(11, 12, 16, 0.98);
+        padding: 15px 20px;
+        border-radius: 12px;
+        margin-bottom: 5px;
+        gap: 10px;
+    }
+    nav.active {
+        display: flex;
+    }
+    nav a {
+        margin: 10px 0;
+        font-size: 14px;
+    }
+    .hero h1 {
+        font-size: 32px;
+    }
+    .hero p {
+        font-size: 15px;
+    }
+    .categories {
+        flex-direction: column;
+        align-items: center;
+    }
+    .category-card {
+        width: 100%;
+        max-width: 340px;
+    }
+    .section-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    .app-detail-container-grid {
+        grid-template-columns: 100%;
+        gap: 30px;
+    }
+    .app-list-item {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+    }
+    .btn-item-link {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .featured-grid {
+        grid-template-columns: 100%;
+    }
+}
