@@ -50,7 +50,7 @@ const appsDatabase = {
     "subway-surfers": {
         name: "Subway Surfers",
         type: "gratuit",
-        description: "Jeu arcade Subway Surfers modifié en APK 3.64.10 avec pièces illimitées, clés et menu amélioré.",
+        description: "Jeu arcade Subway Surfers modified en APK 3.64.10 avec pièces illimitées, clés et menu amélioré.",
         img: "https://raw.githubusercontent.com/jujucram/DataWork_store/main/images/IMG-20260625-WA0841.jpg",
         category: "Jeu / Arcade",
         version: "3.64.10",
@@ -93,8 +93,81 @@ const appsDatabase = {
         size: "Variable selon APK",
         lang: "Multilingue",
         link: "https://wa.me/237673355468?text=Bonjour%20Brandon,%20Je%20veux%20acheter%20CricZ%20TV%20Premium"
+    },
+
+    "pubg-mobile": {
+        name: "PUBG MOD APK v4.4.0 [UC/Aimbot illimité]",
+        type: "gratuit",
+        description: "PUBG Mobile est le meilleur jeu de battle royale jamais créé. Cet article vous permettra de tout savoir sur ses fonctionnalités et son gameplay.",
+        img: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 120 120'%3E%3Crect fill='%23E2583E' width='120' height='120'/%3E%3Ctext x='50%25' y='50%25' font-size='40' fill='white' text-anchor='middle' dy='.3em'%3EPUBG%3C/text%3E%3C/svg%3E",
+        category: "Jeu / Action",
+        version: "4.4.0",
+        size: "Variable selon APK",
+        lang: "Multilingue",
+        link: "https://liteapks.com/pubg-mobile.html"
+    },
+
+    "youtube-premium": {
+        name: "YouTube Premium",
+        type: "premium",
+        description: "Regardez vos vidéos préférées sans aucune interruption publicitaire. Cette version modifiée débloque l'accès Premium complet, la lecture en arrière-plan et bien plus encore pour Android.",
+        img: "https://cdn.jsdelivr.net/gh/Walkxcode/Dashboard-Icons@main/png/youtube.png",
+        category: "Films & Divertissement",
+        version: "21.24.363",
+        size: "Variable selon APK",
+        lang: "Multilingue",
+        link: "https://wa.me/237673355468?text=Bonjour%20Brandon,%20Je%20veux%20acheter%20YouTube%20Premium"
+    },
+
+    "crunchyroll-premium": {
+        name: "Crunchyroll Premium",
+        type: "gratuit",
+        description: "Regardez la plus grande bibliothèque d'animes au monde en haute définition, entièrement gratuitement et sans aucune pause publicitaire.",
+        img: "https://cdn.jsdelivr.net/gh/Walkxcode/Dashboard-Icons@main/png/crunchyroll.png",
+        category: "Films & Divertissement",
+        version: "3.110.1",
+        size: "Variable selon APK",
+        lang: "Multilingue",
+        link: "https://liteapks.com/crunchyroll.html"
+    },
+
+    "iptv-smart-player": {
+        name: "IPTV Smart Player Premium",
+        type: "premium",
+        description: "Le compagnon ultime de streaming TV qui améliore votre expérience de divertissement sur les appareils Android avec l'interface IPTV Smarters débloquée.",
+        img: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 120 120'%3E%3Crect fill='%2334A853' width='120' height='120'/%3E%3Ctext x='50%25' y='50%25' font-size='50' fill='white' text-anchor='middle' dy='.3em'%3EIPTV%3C/text%3E%3C/svg%3E",
+        category: "TV & Streaming",
+        version: "2.10",
+        size: "Variable selon APK",
+        lang: "Multilingue",
+        link: "https://wa.me/237673355468?text=Bonjour%20Brandon,%20Je%20veux%20acheter%20IPTV%20Smart%20Player%20Premium"
+    },
+
+    "netflix-premium": {
+        name: "Netflix Premium Mod",
+        type: "gratuit",
+        description: "Accédez aux séries TV et films les plus populaires du monde entier sans restriction grâce à cette version modifiée de Netflix.",
+        img: "https://cdn.jsdelivr.net/gh/Walkxcode/Dashboard-Icons@main/png/netflix.png",
+        category: "Films & Divertissement",
+        version: "9.76.0",
+        size: "Variable selon APK",
+        lang: "Multilingue",
+        link: "https://www.mediafire.com/file/kp7u96sj5vtlh7y/Netflix+v9.76.0+-+Premium.apk/file"
+    },
+
+    "instagram-mod": {
+        name: "Instagram Mod APK",
+        type: "gratuit",
+        description: "Un véritable paradis en ligne pour vous exprimer auprès d'une vaste communauté. Partagez vos expériences, restez en contact avec vos proches et profitez de fonctionnalités avancées débloquées.",
+        img: "https://cdn.jsdelivr.net/gh/Walkxcode/Dashboard-Icons@main/png/instagram.png",
+        category: "Réseaux Sociaux",
+        version: "439.0.0.0.87",
+        size: "Variable selon APK",
+        lang: "Multilingue",
+        link: "https://www.mediafire.com/file/g2rfsa6kwqvhou2/Instagram+v439.0.0.0.87+-+Mod.apk/file"
     }
 };
+
 
 
 document.addEventListener('DOMContentLoaded', function() {
