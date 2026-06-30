@@ -111,7 +111,7 @@ const appsDatabase = {
         name: "YouTube Premium",
         type: "premium",
         description: "Regardez vos vidéos préférées sans aucune interruption publicitaire. Cette version modifiée débloque l'accès Premium complet, la lecture en arrière-plan et bien plus encore pour Android.",
-        img: "https://cdn.jsdelivr.net/gh/Walkxcode/Dashboard-Icons@main/png/youtube.png",
+        img: "https://raw.githubusercontent.com/jujucram/DataWork_store/main/images/IMG-20260630-WA0030.jpg",
         category: "Films & Divertissement",
         version: "21.24.363",
         size: "Variable selon APK",
