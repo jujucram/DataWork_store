@@ -165,6 +165,30 @@ const appsDatabase = {
         size: "Variable selon APK",
         lang: "Multilingue",
         link: "https://www.mediafire.com/file/g2rfsa6kwqvhou2/Instagram+v439.0.0.0.87+-+Mod.apk/file"
+    },
+
+    "home-workout-six-pack-abs": {
+        name: "Home Workout - Six Pack Abs",
+        type: "gratuit",
+        description: "Entraînez-vous à la maison pour obtenir des abdos en béton avec l'application Home Workout. Des exercices adaptés à tous les niveaux sans aucun équipement nécessaire.",
+        img: "https://raw.githubusercontent.com/jujucram/DataWork_store/main/images/41afxMkVkFL.jpg",
+        category: "Santé & Fitness",
+        version: "Dernière version",
+        size: "Variable selon APK",
+        lang: "Multilingue",
+        link: "https://liteapks.com/home-workout-six-pack-abs.html"
+    },
+
+    "dream-league-soccer-2023": {
+        name: "Dream League Soccer 2023",
+        type: "premium",
+        description: "Construisez l'équipe de football de vos rêves avec Dream League Soccer 2023. Recrutez des super-stars certifiées FIFPRO™, foulez le terrain face aux meilleurs clubs du monde et gravissez les échelons.",
+        img: "https://raw.githubusercontent.com/jujucram/DataWork_store/main/images/hqdefault.jpg",
+        category: "Jeu / Sport",
+        version: "Dernière version",
+        size: "Variable selon APK",
+        lang: "Multilingue",
+        link: "https://wa.me/237673355468?text=Bonjour%20Brandon,%20Je%20veux%20acheter%20Dream%20League%20Soccer%202023"
     }
 };
 
