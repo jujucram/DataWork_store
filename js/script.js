@@ -1,4 +1,28 @@
 const appsDatabase = {
+    "roblox-mod-mega-menu": {
+        name: "Roblox MOD APK (Mega Menu)",
+        type: "premium",
+        description: "Roblox MOD APK offre l'expérience ultime avec son Mega Menu débloquant plus de 65 fonctionnalités inédites. Version v1 : Wallhack, Voler, Saut en hauteur, Auto Farm, Graphismes HD, Ralentissement des ennemis... Version v2 : Endurance illimitée, Sauts multiples, Vitesse x100, Geler, Sortie de prison, Corps mince, et plus encore. Activez tout en un seul clic !",
+        img: "https://raw.githubusercontent.com/jujucram/DataWork_store/main/images/IMG-20260630-WA0031.jpg",
+        category: "Jeu / Aventure",
+        version: "2.725.1142",
+        size: "168,26 Mo",
+        lang: "Multilingue",
+        link: "https://wa.me/237673355468?text=Bonjour%20Brandon,%20Je%20veux%20acheter%20Roblox%20MOD%20APK%20Mega%20Menu"
+    },
+
+    "tiktok-live-mod": {
+        name: "TIKTOK LIVE MOD APK",
+        type: "gratuit",
+        description: "Profitez de TikTok comme jamais auparavant avec cette version modifiée par Dark Legend. Fonctionnalités incluses : Pas de filigrane sur les téléchargements, option LIVE directement débloquée et incluse, expérience 100% sans publicité, toutes les fonctions Premium activées pour une performance fluide, rapide et une interface ultra simple d'utilisation.",
+        img: "https://raw.githubusercontent.com/jujucram/DataWork_store/main/images/IMG-20260630-WA0033.jpg",
+        category: "Réseaux Sociaux",
+        version: "17 JUN MODDED",
+        size: "Variable selon APK",
+        lang: "Multilingue",
+        link: "https://www.mediafire.com/file/ol65q9gu4uq8brj/TIKTOK_LIVE_17_JUN_MODDED_BY_DARK_LEGEND.apk/file"
+    },
+
     "picsart-pro": {
         name: "PicsArt Pro",
         type: "premium",
@@ -191,7 +215,6 @@ const appsDatabase = {
         link: "https://wa.me/237673355468?text=Bonjour%20Brandon,%20Je%20veux%20acheter%20Dream%20League%20Soccer%202023"
     }
 };
-
 
 
 document.addEventListener('DOMContentLoaded', function() {
