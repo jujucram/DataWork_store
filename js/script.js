@@ -1,4 +1,28 @@
 const appsDatabase = {
+    "amazon-prime-video": {
+        name: "Amazon Prime Video Mod",
+        type: "gratuit",
+        description: "Amazon Prime Video Mod APK propose un large choix de séries et d'émissions de télévision de qualité provenant du monde entier. Vous pouvez également profiter de programmes sportifs et de matchs en direct avec toutes les fonctionnalités Premium entièrement débloquées grâce à cette application.",
+        img: "https://raw.githubusercontent.com/jujucram/DataWork_store/main/images/IMG-20260703-WA0045.jpg",
+        category: "Films & Divertissement",
+        version: "3.0.985.1730",
+        size: "Variable selon APK",
+        lang: "Multilingue",
+        link: "https://www.mediafire.com/file/z116jcbjtgabjyc/Amazon+Prime+Video+v3.0.985.1730+-+Premium.apk/file"
+    },
+
+    "vidmate-premium": {
+        name: "VidMate Premium Mod",
+        type: "gratuit",
+        description: "VidMate Premium Mod APK est l'une des meilleures applications de téléchargement et de lecture vidéo pour smartphone. Naviguez, téléchargez et lisez des vidéos quand vous le souhaitez, entièrement sans publicité. Grâce à sa fonction de télévision en direct, accédez également à plus de 200 chaînes de TV en direct tout à fait gratuitement.",
+        img: "https://raw.githubusercontent.com/jujucram/DataWork_store/main/images/IMG-20260701-WA0254.jpg",
+        category: "Films & Divertissement",
+        version: "6.0204",
+        size: "30 Mo",
+        lang: "Français inclus",
+        link: "https://www.mediafire.com/file/voldd7imnr4ldcw/Vidmate+v6.0204+(Premium).apk/file"
+    },
+
     "roblox-mod-mega-menu": {
         name: "Roblox MOD APK (Mega Menu)",
         type: "premium",
@@ -215,6 +239,7 @@ const appsDatabase = {
         link: "https://wa.me/237673355468?text=Bonjour%20Brandon,%20Je%20veux%20acheter%20Dream%20League%20Soccer%202023"
     }
 };
+
 
 
 document.addEventListener('DOMContentLoaded', function() {
