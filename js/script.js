@@ -1,4 +1,28 @@
 const appsDatabase = {
+    "efootball-pes-2026-ppsspp": {
+        name: "eFootball PES 2026 PPSSPP",
+        type: "gratuit",
+        description: "Jouez à la Coupe du Monde de la FIFA 2026 sur Android avec des équipes et des maillots mis à jour, et des graphismes HD époustouflants ! Édition Coupe du Monde – Téléchargement pour Android hors ligne avec les dernières mises à jour de la Coupe du Monde.",
+        img: "https://raw.githubusercontent.com/jujucram/DataWork_store/main/images/IMG-20260703-WA0022.jpg",
+        category: "Jeux PPSSPP",
+        version: "v7.1",
+        size: "Variable selon ZIP",
+        lang: "Français inclus",
+        link: "https://www.mediafire.com/file/vzwc1hodj4a4t5n/eFootball_PES_2026_PSP_V7.1_GAME_FILE_BY_MPROGAMING.COM.zip/file"
+    },
+
+    "netfly-premium": {
+        name: "Netfly MOD APK",
+        type: "premium",
+        description: "L'application Netfly Mod APK donne accès à plus de 20 000 chaînes de télévision en direct, films, séries, événements sportifs et contenus à la demande avec un abonnement Premium entièrement débloqué. De plus, elle est compatible avec de nombreux appareils et offre un streaming fluide dans le monde entier.",
+        img: "https://raw.githubusercontent.com/jujucram/DataWork_store/main/images/IMG-20260630-WA0040.jpg",
+        category: "Films & Divertissement",
+        version: "3.0.3",
+        size: "Variable selon APK",
+        lang: "Multilingue",
+        link: "https://wa.me/237673355468?text=Bonjour%20Brandon,%20Je%20veux%20acheter%20Netfly%20MOD%20APK%20Premium"
+    },
+
     "amazon-prime-video": {
         name: "Amazon Prime Video Mod",
         type: "gratuit",
@@ -206,7 +230,7 @@ const appsDatabase = {
     "instagram-mod": {
         name: "Instagram Mod APK",
         type: "gratuit",
-        description: "Un véritable paradis en ligne pour vous exprimer auprès d'une vaste communauté. Partagez vos expériences, restez en contact avec vos proches et profitez de fonctionnalités avancées débloquées.",
+        description: "Un véritable paradis en ligne pour vous exprimer auprès d'une vaste communauté. Partagez vos experiences, restez en contact avec vos proches et profitez de fonctionnalités avancées débloquées.",
         img: "https://raw.githubusercontent.com/jujucram/DataWork_store/main/images/IMG-20260630-WA0034.jpg",
         category: "Réseaux Sociaux",
         version: "439.0.0.0.87",
@@ -239,7 +263,6 @@ const appsDatabase = {
         link: "https://wa.me/237673355468?text=Bonjour%20Brandon,%20Je%20veux%20acheter%20Dream%20League%20Soccer%202023"
     }
 };
-
 
 
 document.addEventListener('DOMContentLoaded', function() {
