@@ -140,7 +140,7 @@ const appsDatabase = {
         version: "12.8.1",
         size: "55,86 Mo",
         lang: "Multilingue",
-        link: "https://m.easysky.in/qgA0Pk"
+        link: "https://www.mediafire.com/file/aigmux8s9bepzxf/TELEGRAM_MODDED.apk/file"
     },
 
     "cinema-premium": {
