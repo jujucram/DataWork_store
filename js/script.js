@@ -11,6 +11,31 @@ const appsDatabase = {
         link: "https://www.mediafire.com/file/vzwc1hodj4a4t5n/eFootball_PES_2026_PSP_V7.1_GAME_FILE_BY_MPROGAMING.COM.zip/file"
     },
 
+        "sonyliv-mod": {
+        name: "SonyLIV MOD APK (Sans publicité, Mod Extra)",
+        type: "gratuit",
+        description: "SonyLIV est une application multimédia offrant une multitude de contenus adaptés à toute la famille, des films de qualité à regarder n'importe où et n'importe quand. Son atout majeur ? Plus de 40 000 heures de contenu disponibles. De plus, son système de filtrage flexible permet d'affiner la recherche. Enfin, elle propose de nombreuses fonctionnalités pour que chacun puisse profiter pleinement de ses films en famille.",
+        img: "https://raw.githubusercontent.com/jujucram/DataWork_store/main/images/IMG-20260707-WA0109.jpg",
+        category: "Films & Divertissement",
+        version: "v6.34.6",
+        size: "Variable selon APK",
+        lang: "Multilingue",
+        link: "https://www.mediafire.com/file/nktwi2fzjlj9pyk/SonyLIV_v6.34.6_%2528Ad-Free%2529professeur_%25281%2529.apk/file"
+    },
+
+    "hypic-mod-ia": {
+        name: "Hypic - Éditeur de photos et art IA v8.9.0 MOD APK",
+        type: "gratuit",
+        description: "Hypic Mod APK est un outil performant pour retoucher et améliorer vos photos, même les plus banales. Il est conçu pour optimiser votre expérience de retouche photo et vous libérer des contraintes liées à la gestion de plusieurs logiciels. Découvrez une véritable mine d'or : tout ce dont vous pouvez rêver est à votre portée ! Téléchargez la version modifiée pour profiter pleinement de tous ses outils sans avoir à acheter la version premium.",
+        img: "https://raw.githubusercontent.com/jujucram/DataWork_store/main/images/IMG-20260707-WA0112.jpg",
+        category: "Édition photo & vidéo",
+        version: "v8.9.0",
+        size: "Variable selon APK",
+        lang: "Multilingue",
+        link: "https://www.mediafire.com/file/4iln7ueuof20dkl/Hypic-v8.9.0-MOD-OTR-(Getmodsapk.com).apk/file"
+    },
+
+
     "netfly-premium": {
         name: "Netfly MOD APK",
         type: "premium",
