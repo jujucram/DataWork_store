@@ -83,6 +83,18 @@ const appsDatabase = {
         lang: "Multilingue",
         link: "https://wa.me/237673355468?text=Bonjour%20Brandon,%20Je%20veux%20acheter%20Roblox%20MOD%20APK%20Mega%20Menu"
     },
+        "cineplus-premium": {
+        name: "CinePlus MOD APK (Version sans publicité débloquée)",
+        type: "premium",
+        description: "CinePlus est une application de streaming qui vous permet de regarder un nombre illimité de films et de séries TV en Full HD sur vos appareils Android et Android TV — sans publicité, sans compte ni connexion requis.",
+        img: "https://raw.githubusercontent.com/jujucram/DataWork_store/main/images/IMG-20260708-WA0027.jpg",
+        category: "TV & Streaming",
+        version: "Dernière version",
+        size: "Variable selon APK",
+        lang: "Multilingue",
+        link: "https://wa.me/237673355468?text=Bonjour%20Brandon,%20Je%20veux%20acheter%20CinePlus%20MOD%20APK%20Premium"
+    },
+
 
     "tiktok-live-mod": {
         name: "TIKTOK LIVE MOD APK",
