@@ -34,6 +34,18 @@ const appsDatabase = {
         lang: "Multilingue",
         link: "https://www.mediafire.com/file/4iln7ueuof20dkl/Hypic-v8.9.0-MOD-OTR-(Getmodsapk.com).apk/file"
     },
+    
+     "disney-premium": {
+        name: "Disney+ Premium Mod",
+        type: "gratuit",
+        description: "Profitez de la version modifiée de Disney+ Premium. Caractéristiques du Mod : captures d'écran autorisées, contenu Premium débloqué, fonctionne parfaitement sur Android TV, et duplication d'écran (screen mirroring) autorisée pour regarder vos films et séries préférés sur grand écran.",
+        img: "https://raw.githubusercontent.com/jujucram/DataWork_store/main/images/IMG-20260713-WA0005.jpg",
+        category: "Films & Divertissement",
+        version: "Mod par iking (12/07/2026)",
+        size: "Variable selon APK",
+        lang: "Français inclus",
+        link: "https://www.mediafire.com/file/vh2wnrmh91kw2mm/Disney++Mod+By+iking+12+07+2026.apk/file"
+     },
 
 
     "netfly-premium": {
