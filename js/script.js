@@ -11,6 +11,19 @@ const appsDatabase = {
         link: "https://www.mediafire.com/file/vzwc1hodj4a4t5n/eFootball_PES_2026_PSP_V7.1_GAME_FILE_BY_MPROGAMING.COM.zip/file"
     },
 
+        "moviebox-premium": {
+        name: "Moviebox Premium",
+        type: "premium",
+        description: "Profitez d'un accès complet à tous vos films et séries préférés avec Moviebox Premium. Cette version modifiée contourne l'obligation de connexion, débloque l'intégralité des séries web et supprime toutes les publicités pour un streaming fluide.",
+        img: "https://raw.githubusercontent.com/jujucram/DataWork_store/main/images/IMG-20260720-WA0004.jpg",
+        category: "Films & Divertissement",
+        version: "Dernière version",
+        size: "Variable selon APK",
+        lang: "Multilingue",
+        link: "https://wa.me/237673355468?text=Bonjour%20Brandon,%20Je%20veux%20acheter%20Moviebox%20Premium"
+    },
+
+
         "sonyliv-mod": {
         name: "SonyLIV MOD APK (Sans publicité, Mod Extra)",
         type: "gratuit",
